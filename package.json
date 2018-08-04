@@ -1,0 +1,33 @@
+{
+  "name": "yd-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:build": "gulp",
+    "start:dev": "cross-env NODE_ENV=development supervisor ./dist/app.js",
+    "docs": "jsdoc ./src/nodeui/**/*.js -d ./docs/jsdocs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "cross-env": "^5.2.0",
+    "gulp": "^3.9.1",
+    "jsdoc": "^3.5.5",
+    "koa": "^2.5.2",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^5.0.0",
+    "koa-swig": "^2.2.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-watch": "^5.0.1"
+  }
+}

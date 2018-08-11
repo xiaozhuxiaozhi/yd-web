@@ -1,0 +1,11 @@
+[2018-08-11T21:33:45.634] [ERROR] cheese - ReferenceError: result is not defined
+    at /Users/zhuziwei/Desktop/yd-web-second/dist/controllers/IndexController.js:21:58
+    at dispatch (/Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/zhuziwei/Desktop/yd-web-second/dist/middlewares/errorHandler.js:18:10)
+    at dispatch (/Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/zhuziwei/Desktop/yd-web-second/dist/middlewares/errorHandler.js:10:11)
+    at dispatch (/Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhuziwei/Desktop/yd-web-second/node_modules/koa-compose/index.js:34:12
